@@ -1,0 +1,230 @@
+html,
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+}
+.wrapper {
+  display: flex;
+  height: 300px;
+  background-color: #f7f7f7;
+}
+.main {
+  display: block;
+  width: 100%;
+}
+/*Pagina do INDEX */
+.content {
+  color: #333;
+}
+.menu {
+  background-color: #aede00;
+  height: 992px;
+  padding: 20px;
+}
+.m1:hover {
+  background-color: #93bc00;
+  border-radius: 10px;
+}
+.list {
+  list-style: none;
+  margin-top: 230px;
+  height: 250px;
+}
+a:link {
+  text-decoration: none;
+  align-items: center;
+  color: #62009c;
+}
+.m1 {
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 20px;
+  width: 150px;
+  margin-left: -40px;
+  margin-top: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+.header {
+  background-color: #62009c;
+  padding: 20px;
+}
+.content {
+  background-color: #f7f7f7;
+  height: 700px;
+  padding: 20px;
+  font-size: 10px;
+  text-align: justify;
+  color: #333;
+}
+.footer {
+  height: 50px;
+  padding: 10px;
+  background-color: #d6d6d6;
+}
+.footeer {
+  text-align: center;
+  padding: 0px;
+  color: #333;
+}
+.logo {
+  display: block;
+  margin: auto;
+}
+iframe {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+/*FINAL Pagina do INDEX */
+
+/*Pagina do SOBRE*/
+.content-sobre {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  background-color: #f7f7f7;
+  height: 700px;
+  padding: 20px;
+  font-size: 10px;
+  color: #333;
+}
+.content-2 {
+  width: 50%;
+  margin-left: 15px;
+}
+.content-2 h1 {
+  font-size: 25px;
+}
+.content-2 p {
+  font-size: 20px;
+  text-align: justify;
+}
+.content-3 {
+  width: 50%;
+}
+.cachorro {
+  height: 700px;
+}
+.serviços {
+  font-size: 20px;
+}
+/*FINAL Pagina do SOBRE*/
+
+/*Pagina HORARIO*/
+.tabela {
+  margin-top: 50px;
+  padding: 10px;
+  height: 300px;
+  width: 800px;
+  border: solid 1px #d6d6d6;
+  border-radius: 10px;
+  font-size: 16px;
+}
+tr th {
+  background-color: #aede00;
+  padding: 5px;
+  text-align: center;
+}
+tbody tr td {
+  padding: 5px;
+  text-align: center;
+}
+table tbody tr:nth-child(even) td {
+  background-color: #d6d6d6;
+}
+.nossos-servicos {
+  font-size: 20px;
+  margin-left: 15px;
+}
+.content h1 {
+  margin-left: 15px;
+}
+
+/*FINAL Pagtrina HORARIO*/
+
+/*Pagina de CONTATO*/
+.content-c {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  background-color: #f7f7f7;
+  height: 700px;
+  padding: 20px;
+  font-size: 10px;
+  color: #333;
+}
+
+.content-atendimento {
+  width: 50%;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.formulario {
+  width: 50%;
+  font-size: 16px;
+}
+
+/*final de CONTATO*/
+
+/*Pagina de CONTATO*/
+
+form label {
+  display: block;
+  margin: 0 0 2px;
+  font-size: 16px;
+  padding: 10px;
+}
+input {
+  width: 400px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #efefef;
+  border: none;
+}
+input:hover {
+  background-color: #d6d6d6;
+}
+form {
+  padding-left: 70px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+textarea {
+  min-width: 400px;
+  min-height: 100px;
+  max-width: 400px;
+  max-height: 100px;
+  background-color: #efefef;
+}
+button {
+  margin-top: 20px;
+  height: 50px;
+  width: 130px;
+  font-size: 14px;
+}
+.enviar {
+  border: none;
+  background-color: #62009c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.limpar {
+  border: none;
+  background-color: #aede00;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.formulario h3 {
+  font-size: 25px;
+  text-align: center;
+}
+h3 {
+  font-size: 25px;
+}
